@@ -1,0 +1,19 @@
+.item {
+    position: absolute;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.item.visible {
+    opacity: 1;
+}
+
+.item.exit-right {
+    opacity: 0;
+    transform: translateX(100%);
+}
