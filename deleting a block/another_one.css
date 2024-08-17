@@ -1,0 +1,26 @@
+.text {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.text-element {
+
+    border: 3px solid #8a3996;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 8px;
+    background-color: #af9ab3;
+    position: relative;
+}
+
+.element {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
