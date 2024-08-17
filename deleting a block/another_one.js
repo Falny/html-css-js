@@ -1,4 +1,3 @@
-let text = document.querySelectorAll('.text-element');
 let element = document.querySelectorAll('.element');
 
 
