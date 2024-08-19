@@ -1,0 +1,40 @@
+.block {
+    position: relative;
+    margin: 50px 0 0 50px;
+    width: 300px;
+
+}
+
+.element {
+    position: relative;
+    padding-left: 15px;
+
+}
+
+.elements {
+    padding-top: 5px;
+    padding-left: 25px;
+    height: 0;
+    opacity: 0;
+    transition: height 0.5s ease, opacity 0.5s ease;
+
+}
+
+.elements.open {
+    height: 20px;
+    opacity: 1;
+}
+
+.item {
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+    z-index:1;
+    transform: rotate(0deg);
+    opacity: 1;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.item.turn {
+    transform: rotate(90deg);
+}
