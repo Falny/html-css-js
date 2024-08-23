@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.counter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.count input{
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    background: transparent;
+
+}
+
+
+.elements{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding: 5px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.element {
+    color: black;
+    transition: color 0.2s ease, transform 0.2s ease;
+
+}
+
+.element.color {
+    color: #96a6b5;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
