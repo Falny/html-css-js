@@ -1,0 +1,206 @@
+html{
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Montserrat', sasn-serif;
+    padding: 0 100px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.wrap{
+    max-height: 100%;
+    border: 2px solid #7a7a7a;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+/* Блок head */
+.head-inner{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #ccc;
+    padding: 40px 0;
+    
+}
+
+.head-title{
+    font-weight: 500;
+    margin: 0;
+}
+
+.search{
+    height: 30px;
+    width: 225px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+    outline: none;
+    color: #7a7a7a;
+    font-family: 'Montserrat', sasn-serif;
+}
+
+.search::placeholder{
+    color: #d1cfd1;
+    padding-left: 3px;
+}
+
+/* Блок main */
+.container{
+    margin: 0 auto;
+    padding: 0 140px;
+}
+
+.main-inner{
+    padding-top: 40px;
+}
+
+.main-title{
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.main__books-list{
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    overflow-y: auto;
+}
+
+.fill_place{
+    height: 190px;
+    margin: 16px 0;
+    background-color: transparent;
+    display: none;
+}
+
+.main__books-item{
+    display: flex;
+    border-left: 4px solid #ccc;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.main__books-delete{
+    margin-left: auto;
+    border: none;
+    border-radius: 6px;
+    background-color: #de8aeb;
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    font-family: 'Montserrat', sasn-serif;
+}
+
+.main__books-delete:hover{
+    background-color: #9c5aa6;
+    transition: 0.5s
+}
+
+/* Инструменты и добавление */
+.main-tools_list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.main-tools_items{
+    margin-bottom: 20px;
+}
+
+.mail-tools_label{
+    display: flex;
+}
+
+.main-tools_text{
+    margin-left: 10px;
+}
+
+.main-tools_items{
+    display: flex;
+}
+
+.main-tools_add{
+    width: 275px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #7a7a7a;
+    padding-left: 8px;
+}
+
+.main-tools_add::placeholder{
+    color: #d1cfd1;
+    padding-left: 5px;
+}
+
+.main-tools_btn{
+    font-family: 'Montserrat', sasn-serif;
+    width: 60px;
+    background-color: #de8aeb;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-family: 'Montserrat', sasn-serif;
+}
+
+.main-tools_btn:hover{
+    background-color: #9c5aa6;
+    transition: background-color 0.5s;
+}
+
+.contacts-list{
+    display: flex;
+    padding-left: 5px;
+    gap: 0 15px;
+}
+
+.contacts-list_btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #de8aeb;
+    font-family: 'Montserrat', sasn-serif;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.contacts-list_btn:hover{
+    background-color: #9c5aa6;
+    transition: background-color 0.5s;
+}
+
+.footer-inner{
+    margin: 30px 0;
+    padding: 10px 40px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+
+}

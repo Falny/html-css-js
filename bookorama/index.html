@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="head-inner">
+                <h1 class="head-title">Bookorama</h1>
+                <p class="head-text">Books for Ninjas</p>
+                <form action="#" class="head-search">
+                    <input type="search" class="search" placeholder="Search..." autofocus>
+                </form>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-inner">
+                    <h3 class="main-title">Books to Read</h3>
+                    <div class="fill_place"></div>
+                    <ul class="main__books-list">
+                        <li class="main__books-item">
+                            <p class="main_books-book">Как устроен JavaScript. Дуглас Крокфорд</p>
+                            <button type="submit" class="main__books-delete">Delete</button>
+                        </li>
+                        <li class="main__books-item">
+                            <p class="main_books-book">Секреты CSS. Идеальные решения ежедневных задач. Лия Веру</p>
+                            <button type="submit" class="main__books-delete">Delete</button>
+                        </li>
+                        <li class="main__books-item">
+                            <p class="main_books-book">Выразительный JavaScript, второе издание. Марейн Хавербек</p>
+                            <button type="submit" class="main__books-delete">Delete</button>
+                        </li>
+                    </ul>
+                    <!-- Инструменты и добавление -->
+                    <ul class="main-tools_list">
+                        <li class="main-tools_items">
+                            <form action="#" class="main-tools">
+                                <label class="mail-tools_label">
+                                    <input type="checkbox" class="checkbox">
+                                    <span class="checkbox__style"></span>
+                                    <p class="main-tools_text">Hide all books</p>
+                                </label>
+                            </form>
+                        </li>
+                        <li class="main-tools_items">
+                            <input type="text" class="main-tools_add" placeholder="Add book...">
+                            <button type="submit" class="main-tools_btn">Add</button>
+                        </li>
+                    </ul>
+                    <ul class="contacts-list">
+                        <li class="contacts-list_items">
+                            <button class="contacts-list_btn">About</button>
+                        </li>
+                        <li class="contacts-list_items">
+                            <button class="contacts-list_btn">Contact</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-inner">
+                    <p class="footer-head">Content for about tab...</p>
+                    <p class="footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Hic quia a nesciunt dolor facilis non enim, magni odit iure suscipit? Corrupti 
+                         deleniti nisi magni architecto eaque, perferendis in veritatis sint hic aut totam
+                          provident possimus ab praesentium atque eligendi quo cum error fuga repudiandae 
+                          nulla itaque reprehenderit corporis. Possimus, eligendi.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
