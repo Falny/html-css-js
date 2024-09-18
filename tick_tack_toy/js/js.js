@@ -44,7 +44,7 @@ function Game(gamer) {
 
 function noSides() {
     if ([...boxes].every(cell => cell.textContent)){
-        str.textContent = 'Ты пидарас!';
+        str.textContent = 'Ничья!';
         str.style.display = 'block';
     }
 }
