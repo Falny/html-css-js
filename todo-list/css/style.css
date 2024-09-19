@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, #4882f7, #c24444);
+    background-size: 100%;
+    height: 100vh;
+    padding: 100px;
+
+}
+
+.box{
+    margin: 0 auto;
+    padding: 30px 50px;
+    border-radius: 5px;
+    background-color: #f7e9e9;
+    width: 310px;
+    max-height: 500px;
+    height: fit-content;
+}
+
+.box-title{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.box-form{
+    display: flex;
+}
+
+.form-text{
+    height: 32px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: #f0b1b1;
+    padding-left: 5px;
+    border-radius: 3px 0 0 3px;
+    margin-right: 0;
+}
+
+.form-text::-ms-expand{
+    display: none;
+}
+
+.form-text::placeholder{
+    color: #f0b1b1;
+    padding-left: 5px;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+.form-btn{
+    height: 34px;
+    width: 80px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #c26d80;
+    transition: background-color 0.5s;
+    font-family: 'Inconsolata', sans-serif;
+    margin-left: 0; 
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    background-color: #c24e67;
+    transition: background-color 0.5s;
+}
+
+.todo-list{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 2;
+    
+}
+
+
+
+.todo-list > li{
+    font-family: 'Inconsolata', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+li > p{
+    margin-right: auto;
+    outline: none;
+}
+
+li > input{
+    margin-right: 10px;
+}
+
+li > button {
+    height: 30px;
+    width: 51px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c26d80;
+    transition: background-color 0.6s;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Inconsolata', sans-serif;
+
+}
+
+li > button:hover{
+    background-color: #c24e67;
+    transition: background-color 0.5s;
+    
+}

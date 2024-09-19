@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <h2 class="box-title">To-Do List</h2>
+            <div class="box-form">
+                <input type="text" class="form-text" list="datalist" placeholder="Add...">
+                <button class="form-btn" type="submit">Add Task</button>
+
+                <datalist id="datalist" class="datalist">
+                    <option value="Learn JavaScript" class="datalst-item">
+                    <option value="Buy a book" class="datalst-item">
+                    <option value="Play in game" class="datalst-item">
+                </datalist>
+            </div>
+            <ul class="todo-list"></ul>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
