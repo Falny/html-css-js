@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, #5f35b8, #549ee3);
+    background-size: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box{
+    border-radius: 5px;
+    background-color: #d1c0b4;
+    width: 275px;
+    height: 100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch{
+    font-family: 'Gowun Batang', sans-serif;
+    font-size: 40px;
+}
+
+.box-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-btn{
+    background-color: #d1c0b4;
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 0 10px;
+    font-family: 'Gowun Batang', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item-btn:hover{
+    background-color: #9c8575;
+    transition: background-color 0.5s;
+}
