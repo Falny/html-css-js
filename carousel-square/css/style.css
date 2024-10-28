@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to left top, #ffeeb0, #9dc6ff);
+    background-repeat: no-repeat;
+}
+
+ul{     
+    list-style-type: none;
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px); 
+    gap: 0 15px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+.moving{
+    cursor: grab;
+    scroll-snap-type: none;
+}
+
+.no-transition{
+    scroll-behavior: auto;
+}
+
+.item{
+    scroll-snap-align: start;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.item-1{
+    background-color: #fa8484;
+}
+
+.item-2{
+    background-color: #fc2828;
+}
+
+.item-3{
+    background-color: #ff9029;
+}
+
+.item-4{
+    background-color: #f4ce46;
+}
+
+.item-5{
+    background-color: #56d72f;
+}
+
+.item-6{
+    background-color: #45ffae;
+}
+
+.item-7{
+    background-color: #4545fd;
+}
+
+.item-8{
+    background-color: #ce48ff;
+}
+
+.item-9{
+    background-color: #f831b6;
+}
+
+.arrow{
+    font-size: 45px;
+    color: #fefefe;
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 0.5s;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+}
+
+.arrow:first-child{
+    left: -22px;
+}
+
+.arrow:last-child{
+    right: -12px;
+}
+
+.arrow:hover{
+    color: #585858;
+    transition: color 0.5s;
+}
+
+.dots{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.dot-element{
+    border-radius: 50%;
+    background-color: #fefefe;
+    transition: background-color 0.5s;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.dot-element:hover{
+    background-color: #585858;
+    transition: background-color 0.5s;
+}
