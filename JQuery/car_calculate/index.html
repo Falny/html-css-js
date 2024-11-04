@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div class="container">
+                <div class="info">
+                    <img src="images/black.webp" alt="" class="car_back">
+                    <div class="info_car">
+                        <h3 class="name_car">Hundai Solaris</h3>
+                        <div class="car_options" id="modelSpecs">1.4 л (100 л.с.), Ручная, 6 ступеней (6 МТ), Active</div>
+                        <div class="car_price_rub" id="modelPrice">624 000 рублей</div>
+                        <button type="submit" class="car_buy">Заказать</button>
+                    </div>
+                </div>
+                <div class="options" id="autoForm">
+                    <h2 class="options_title">Настрой авто под себя</h2>
+                    <div class="options_choise">
+                        <div class="common choise_engin">
+                            <p class="choise_title">Двигатель</p>
+    
+                            <label for="engin1400">
+                                <input type="radio" name="engin" id="engin1400" value="549000" checked>1.4 л (100 л.с)</label>
+    
+                            <label for="engin1600">
+                                <input type="radio" name="engin" id="engin1600" value="635000">1.6 л (123 л.с)</label>
+                        </div>
+                        <div class="common gearbox">
+                            <p class="choise_title">Коробка передач</p>
+    
+                            <label for="manual">
+                                <input type="radio" name="gearbox" id="manual" value="0" checked>Ручная, 6 ступеней (6 MT)</label>
+    
+                            <label for="automat">
+                                <input type="radio" name="gearbox" id="automat" value="134000">Автомат, 6 ступеней (6 AT)</label>
+                        </div>
+                        <div class="common package">
+                            <p class="choise_title">Пакет (дополнительные опции)</p>
+    
+                            <label for="active">
+                                <input type="radio" name="package" id="active" value="0" checked>Active</label>
+    
+                            <label for="active_plus">
+                                <input type="radio" name="package" id="active_plus" value="223000">Active Plus (кондиционер)</label>
+                            
+                            <label for="comfort">
+                                <input type="radio" name="package" id="comfort" value="245000">Comforn (климатконтроль)</label>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <p class="choise_title">Цвет</p>
+                        <div class="box-color">
+                            <span class="blue" data-img-path="images/blue.webp"></span>
+                            <span class="grey" data-img-path="images/grey.webp"></span>
+                            <span class="red" data-img-path="images/red.webp"></span>
+                            <span class="black" data-img-path="images/black.webp"></span>
+                            <span class="white" data-img-path="images/white.webp"></span>
+                            <span class="brown" data-img-path="images/brown.webp"></span>
+                            <span class="strong_grey" data-img-path="images/strong_grey.webp"></span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
